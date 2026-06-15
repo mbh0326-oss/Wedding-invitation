@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="민준과 서연의 모바일 청첩장입니다."
+      content="민준과 서연의 모바일 청첩장 시안입니다."
     />
     <meta property="og:title" content="민준 & 서연 결혼합니다" />
     <meta
@@ -14,183 +14,20 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/cover.png" />
-    <title>민준 & 서연 모바일 청첩장</title>
+    <title>민준 & 서연 모바일 청첩장 시안</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="invitation" data-wedding-date="2026-10-24T12:30:00+09:00">
-      <section class="cover" aria-label="청첩장 표지">
-        <img
-          class="cover__image"
-          src="assets/cover.png"
-          alt="웨딩 반지와 부케가 놓인 청첩장 이미지"
-        />
-        <div class="cover__shade" aria-hidden="true"></div>
-        <div class="cover__content">
-          <p class="cover__eyebrow">Wedding Invitation</p>
-          <h1>민준 <span>&amp;</span> 서연</h1>
-          <p class="cover__date">2026. 10. 24. SAT 12:30 PM</p>
-        </div>
-      </section>
+    <header class="draft-nav">
+      <p>Wedding Invitation Drafts</p>
+      <nav aria-label="청첩장 시안 선택" data-draft-nav></nav>
+    </header>
 
-      <section class="intro section">
-        <p class="section-kicker">초대합니다</p>
-        <h2>서로의 계절이 되어<br />함께 걸어가려 합니다</h2>
-        <p>
-          같은 방향을 바라보며 천천히 쌓아온 마음으로 평생을 약속하려
-          합니다. 귀한 걸음으로 축복해 주시면 더없는 기쁨으로 간직하겠습니다.
-        </p>
-        <div class="parents" aria-label="혼주">
-          <p><strong>김영호 · 이정미</strong>의 장남 <strong>민준</strong></p>
-          <p><strong>박성훈 · 최은아</strong>의 장녀 <strong>서연</strong></p>
-        </div>
-      </section>
+    <main class="showcase" aria-label="모바일 청첩장 시안" data-showcase></main>
 
-      <section class="details section section--tint" aria-label="예식 정보">
-        <p class="section-kicker">Wedding Day</p>
-        <h2>2026년 10월 24일 토요일</h2>
-        <p class="detail-time">오후 12시 30분</p>
-        <div class="date-card">
-          <div class="month">October 2026</div>
-          <div class="weekdays" aria-hidden="true">
-            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span
-            ><span>Thu</span><span>Fri</span><span>Sat</span>
-          </div>
-          <div class="calendar" aria-label="2026년 10월 달력">
-            <span></span><span></span><span></span><span></span><span>1</span
-            ><span>2</span><span>3</span><span>4</span><span>5</span
-            ><span>6</span><span>7</span><span>8</span><span>9</span
-            ><span>10</span><span>11</span><span>12</span><span>13</span
-            ><span>14</span><span>15</span><span>16</span><span>17</span
-            ><span>18</span><span>19</span><span>20</span><span>21</span
-            ><span>22</span><span>23</span><strong>24</strong><span>25</span
-            ><span>26</span><span>27</span><span>28</span><span>29</span
-            ><span>30</span><span>31</span>
-          </div>
-        </div>
-        <p class="countdown" data-countdown>소중한 날을 기다리고 있습니다.</p>
-      </section>
-
-      <section class="gallery section" aria-label="갤러리">
-        <p class="section-kicker">Gallery</p>
-        <h2>우리의 순간</h2>
-        <div class="gallery-grid">
-          <button
-            class="gallery-item gallery-item--large"
-            type="button"
-            data-lightbox="assets/cover.png"
-            aria-label="갤러리 사진 1 크게 보기"
-          ></button>
-          <button
-            class="gallery-item gallery-item--top"
-            type="button"
-            data-lightbox="assets/cover.png"
-            aria-label="갤러리 사진 2 크게 보기"
-          ></button>
-          <button
-            class="gallery-item gallery-item--middle"
-            type="button"
-            data-lightbox="assets/cover.png"
-            aria-label="갤러리 사진 3 크게 보기"
-          ></button>
-        </div>
-      </section>
-
-      <section class="location section section--tint" aria-label="오시는 길">
-        <p class="section-kicker">Location</p>
-        <h2>라움웨딩홀 3층 그레이스홀</h2>
-        <p>서울특별시 강남구 테헤란로 123</p>
-        <a
-          class="action-button"
-          href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C%20123"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span class="button-icon" aria-hidden="true">⌖</span>
-          지도에서 보기
-        </a>
-        <dl class="transport">
-          <div>
-            <dt>지하철</dt>
-            <dd>2호선 역삼역 3번 출구 도보 5분</dd>
-          </div>
-          <div>
-            <dt>주차</dt>
-            <dd>웨딩홀 지하 주차장 2시간 무료</dd>
-          </div>
-        </dl>
-      </section>
-
-      <section class="contact section" aria-label="연락하기">
-        <p class="section-kicker">Contact</p>
-        <h2>마음 전하실 곳</h2>
-        <div class="contact-list">
-          <article>
-            <p class="contact-role">신랑</p>
-            <h3>김민준</h3>
-            <div class="button-row">
-              <a href="tel:010-1234-5678" aria-label="신랑에게 전화하기">☎</a>
-              <a href="sms:010-1234-5678" aria-label="신랑에게 문자 보내기">✉</a>
-            </div>
-          </article>
-          <article>
-            <p class="contact-role">신부</p>
-            <h3>박서연</h3>
-            <div class="button-row">
-              <a href="tel:010-9876-5432" aria-label="신부에게 전화하기">☎</a>
-              <a href="sms:010-9876-5432" aria-label="신부에게 문자 보내기">✉</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="account section section--tint" aria-label="계좌 정보">
-        <p class="section-kicker">Account</p>
-        <h2>축하의 마음</h2>
-        <div class="account-list">
-          <div class="account-line">
-            <div>
-              <p>신랑측</p>
-              <strong>국민은행 123456-00-123456 김민준</strong>
-            </div>
-            <button
-              type="button"
-              class="copy-button"
-              data-copy="국민은행 123456-00-123456 김민준"
-            >
-              복사
-            </button>
-          </div>
-          <div class="account-line">
-            <div>
-              <p>신부측</p>
-              <strong>신한은행 110-123-456789 박서연</strong>
-            </div>
-            <button
-              type="button"
-              class="copy-button"
-              data-copy="신한은행 110-123-456789 박서연"
-            >
-              복사
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <section class="share section" aria-label="청첩장 공유">
-        <p class="section-kicker">Share</p>
-        <h2>소중한 분께 전해주세요</h2>
-        <button type="button" class="action-button" data-share>
-          <span class="button-icon" aria-hidden="true">↗</span>
-          청첩장 공유하기
-        </button>
-      </section>
-
-      <footer class="footer">
-        <p>민준 &amp; 서연</p>
-        <small>Thank you for celebrating with us.</small>
-      </footer>
-    </main>
+    <noscript>
+      <p class="noscript">브라우저에서 JavaScript를 켜면 시안을 볼 수 있습니다.</p>
+    </noscript>
 
     <div class="lightbox" data-lightbox-view hidden>
       <button type="button" class="lightbox__close" data-lightbox-close>
